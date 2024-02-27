@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="PageObject.TestExecution">
+        <methods>
+          <include name="e_LowtoHigh"/>
+          <include name="c_Demo"/>
+          <include name="j_CheckOut_order"/>
+          <include name="p_case17_Data_Provide" invocation-numbers="0 1"/>
+          <include name="i_Checkout_Order"/>
+          <include name="p_case16_logout"/>
+          <include name="f_AddItem_L2H"/>
+          <include name="h_Price_H2L"/>
+          <include name="d_Sorting"/>
+          <include name="g_CheckOut_fstOrder"/>
+          <include name="k_Reset_AppStatus"/>
+          <include name="o_case15"/>
+          <include name="l_AddButton"/>
+          <include name="m_case13"/>
+          <include name="n_case14"/>
+          <include name="Launch"/>
+        </methods>
+      </class> <!-- PageObject.TestExecution -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
